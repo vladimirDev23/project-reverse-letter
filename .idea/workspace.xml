@@ -4,34 +4,52 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="964446ef-8fdb-4b32-9fd2-ae265ee8e2aa" name="Changes" comment="&quot;first commit&quot;">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vladimirkosenko/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vladimirkosenko/Main.java" afterDir="false" />
+    <list default="true" id="964446ef-8fdb-4b32-9fd2-ae265ee8e2aa" name="Changes" comment="&quot;ProjectReverseLetter&quot;">
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/vladimirkosenko/ReverseLatter/ReverseLatterTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/vladimirkosenko/Reserse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vladimirkosenko/ReverseLatter/ReverseLatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "vladimirDev23"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;vladimirDev23&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/vladimirDev23/project-reverse-letter.git",
-    "accountId": "37b671b5-781a-4487-b1c2-38e7d6868f27"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/vladimirDev23/project-reverse-letter.git&quot;,
+    &quot;accountId&quot;: &quot;37b671b5-781a-4487-b1c2-38e7d6868f27&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 2,
-  "fromUser": false
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2,
+  &quot;fromUser&quot;: false
+}</component>
   <component name="ProjectId" id="3M3neGkVykWhksI6Vo6fhPiYcvs" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -39,27 +57,44 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.Main.executor": "Run",
+    "Application.Reserse.executor": "Run",
+    "Application.ReverseLatter.executor": "Run",
+    "JUnit.ReverseLatterTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
     "RunOnceActivity.typescript.service.memoryLimit.init": "true",
     "codeWithMe.voiceChat.enabledByDefault": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "#1 on dev",
     "kotlin-language-version-configured": "true",
     "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "/Users/vladimirkosenko/Desktop/Java/ReverseLetter/src/main/java/org/vladimirkosenko/Main.java"
+    "onboarding.tips.debug.path": "/Users/vladimirkosenko/Desktop/Java/ReverseLetter/src/main/java/org/vladimirkosenko/Main.java",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration name="Reserse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Reserse" />
+  <component name="RunManager" selected="JUnit.ReverseLatterTest">
+    <configuration name="ReverseLatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.vladimirkosenko.ReverseLatter.ReverseLatter" />
       <module name="ReverseLetter" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReverseLatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReverseLetter" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ReverseLatterTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Reserse" />
+        <item itemvalue="JUnit.ReverseLatterTest" />
+        <item itemvalue="Application.ReverseLatter" />
       </list>
     </recent_temporary>
   </component>
@@ -97,6 +132,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;first commit&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;first commit&quot;" />
+    <MESSAGE value="&quot;ProjectReverseLetter&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;ProjectReverseLetter&quot;" />
   </component>
 </project>

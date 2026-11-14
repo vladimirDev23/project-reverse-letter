@@ -1,4 +1,6 @@
-public class Reserse {
+package org.vladimirkosenko.ReverseLatter;
+
+public class ReverseLatter {
     public static String reverse(String str) {
         if (str == null || str.length() == 0) {
             return str;
@@ -26,5 +28,6 @@ public class Reserse {
         return new String(chars);
     }
     public static void main(String[] args) {
+        System.out.println(reverse("J@va the be$t!123"));
     }
 }
