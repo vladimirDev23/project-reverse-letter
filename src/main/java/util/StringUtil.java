@@ -1,7 +1,7 @@
-package org.vladimirkosenko.ReverseLatter;
+package util;
 
-public class ReverseLatter {
-    public static String reverse(String str) {
+public class StringUtil {
+    public static String reverseLetters(String str) {
         if (str == null || str.length() == 0) {
             return str;
         }
@@ -28,6 +28,6 @@ public class ReverseLatter {
         return new String(chars);
     }
     public static void main(String[] args) {
-        System.out.println(reverse("J@va the be$t!123"));
+        System.out.println(reverseLetters("J@va the be$t!123"));
     }
 }

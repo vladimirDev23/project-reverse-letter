@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="964446ef-8fdb-4b32-9fd2-ae265ee8e2aa" name="Changes" comment="&quot;ProjectReverseLetter&quot;">
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/vladimirkosenko/ReverseLatter/ReverseLatterTest.java" afterDir="false" />
+    <list default="true" id="964446ef-8fdb-4b32-9fd2-ae265ee8e2aa" name="Changes" comment="&quot;Added ReverseLatter Tests&quot;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/vladimirkosenko/Reserse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/vladimirkosenko/ReverseLatter/ReverseLatter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,18 +71,33 @@
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.ReverseLatterTest">
-    <configuration name="ReverseLatter" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.vladimirkosenko.ReverseLatter.ReverseLatter" />
+  <component name="RunManager" selected="JUnit.StringUtilTest (1)">
+    <configuration name="StringUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.vladimirkosenko.ReverseLatter.StringUtil" />
       <module name="ReverseLetter" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ReverseLatterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="StringUtilTest (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ReverseLetter" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="util" />
+      <option name="MAIN_CLASS_NAME" value="util.StringUtilTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StringUtilTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ReverseLetter" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ReverseLatterTest" />
+      <option name="MAIN_CLASS_NAME" value="StringUtilTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -93,8 +105,9 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ReverseLatterTest" />
-        <item itemvalue="Application.ReverseLatter" />
+        <item itemvalue="JUnit.StringUtilTest (1)" />
+        <item itemvalue="Application.StringUtil" />
+        <item itemvalue="JUnit.StringUtilTest" />
       </list>
     </recent_temporary>
   </component>
@@ -133,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="&quot;first commit&quot;" />
     <MESSAGE value="&quot;ProjectReverseLetter&quot;" />
-    <option name="LAST_COMMIT_MESSAGE" value="&quot;ProjectReverseLetter&quot;" />
+    <MESSAGE value="&quot;Added ReverseLatter Tests&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Added ReverseLatter Tests&quot;" />
   </component>
 </project>
